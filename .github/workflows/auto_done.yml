@@ -32,6 +32,6 @@ jobs:
     - name: Installing surge
       run: npm install --gobal surge 
     - name: deploying using surge 
-      run: surge ./ jahanzaib123.surge.sh --token ${{Secret_surge}}
+      run: surge ./ jahanzaib123.surge.sh --token ${{SECRET_SURGE}}
       
 
